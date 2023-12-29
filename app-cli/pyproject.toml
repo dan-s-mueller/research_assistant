@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "app1"
+name = "app-cli"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -14,7 +14,6 @@ uvicorn = "^0.23.2"
 langserve = {extras = ["server"], version = ">=0.0.30"}
 pydantic = "<2"
 research-assistant = {path = "packages/research-assistant", develop = true}
-python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
